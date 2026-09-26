@@ -332,28 +332,6 @@
             margin-bottom: 2px;
         }
 
-        .skill-card .level {
-            color: #8892b0;
-            font-size: 0.8rem;
-            font-weight: 400;
-            display: block;
-            margin-bottom: 10px;
-        }
-
-        .skill-bar {
-            width: 100%;
-            height: 5px;
-            background: rgba(255, 255, 255, 0.08);
-            border-radius: 4px;
-            overflow: hidden;
-        }
-
-        .skill-bar .fill {
-            height: 100%;
-            border-radius: 4px;
-            background: linear-gradient(90deg, #4a9eff, #e63946);
-        }
-
         /* ---------- SERVICES ---------- */
         .services-grid {
             display: grid;
@@ -396,7 +374,7 @@
             font-size: 0.9rem;
         }
 
-        /* ---------- PORTFOLIO (PROYECTO LOCALIZADORES) ---------- */
+        /* ---------- PORTFOLIO (PROYECTO) ---------- */
         .project-showcase {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -656,7 +634,7 @@
         <ul class="nav-links" id="navLinks">
             <li><a href="#home" class="active">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
+            <li><a href="#skills">Expertise</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#portfolio">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -673,9 +651,7 @@
             <h1>Alessandro Pucciariello</h1>
             <h2>Electronics Technician · <span>Telecommunications</span></h2>
             <p>
-                Curious, creative, and responsible — passionate about programming, 
-                electronics, and repairing computers. Building solutions that bridge 
-                hardware and software.
+                Passionate about building solutions that bridge hardware and software.
             </p>
             <div>
                 <a href="#portfolio" class="btn-primary">View My Work</a>
@@ -684,11 +660,7 @@
             <div class="hero-stats">
                 <div class="stat">
                     <div class="number">7<sup>th</sup></div>
-                    <div class="label">Year Student</div>
-                </div>
-                <div class="stat">
-                    <div class="number">18</div>
-                    <div class="label">Years Old</div>
+                    <div class="label">Year at Instituto Madero</div>
                 </div>
                 <div class="stat">
                     <div class="number">💻</div>
@@ -706,16 +678,15 @@
         <div class="about-grid">
             <div>
                 <p>
-                    I'm <span class="highlight">Alessandro Pucciariello</span>, an 18-year-old 
-                    Electronics Technician student in my final year at <span class="highlight">Instituto Madero</span>, 
-                    specializing in <span class="highlight-red">Telecommunications</span>. 
-                    I've always been fascinated by how electronic devices work — from the inside out.
+                    I'm <span class="highlight">Alessandro Pucciariello</span>, an Electronics Technician student 
+                    in my final year at <span class="highlight">Instituto Madero</span>, specializing in 
+                    <span class="highlight-red">Telecommunications</span>. I've always been fascinated by how 
+                    electronic devices work — from the inside out.
                 </p>
                 <p>
-                    I'm a <span class="highlight">curious, creative, and responsible</span> person. 
-                    I love taking things apart to understand them, and even more, putting them back 
-                    together better than before. My passion lies at the intersection of 
-                    <span class="highlight">programming, electronics, and robotics</span>.
+                    I'm passionate about building solutions that bridge hardware and software. I love taking 
+                    things apart to understand them, and even more, putting them back together better than before. 
+                    My interests lie at the intersection of <span class="highlight">programming, electronics, and robotics</span>.
                 </p>
             </div>
             <div>
@@ -735,45 +706,33 @@
 
     <!-- ==================== SKILLS ==================== -->
     <section id="skills">
-        <h2 class="section-title">My <span>Skills</span></h2>
-        <div class="section-sub">— What I know and practice —</div>
+        <h2 class="section-title">Technical <span>Expertise</span></h2>
+        <div class="section-sub">— What I Do Best —</div>
 
         <div class="skills-grid">
             <div class="skill-card">
                 <div class="icon"><i class="fas fa-desktop"></i></div>
                 <h3>Computer Repair &amp; Maintenance</h3>
-                <span class="level">Advanced</span>
-                <div class="skill-bar"><div class="fill" style="width: 90%;"></div></div>
             </div>
             <div class="skill-card">
                 <div class="icon"><i class="fas fa-microchip"></i></div>
                 <h3>Electronics &amp; Board Repair</h3>
-                <span class="level">Intermediate</span>
-                <div class="skill-bar"><div class="fill" style="width: 75%;"></div></div>
             </div>
             <div class="skill-card">
                 <div class="icon"><i class="fab fa-linux"></i></div>
-                <h3>Linux &amp; Operating Systems</h3>
-                <span class="level">Intermediate</span>
-                <div class="skill-bar"><div class="fill" style="width: 70%;"></div></div>
+                <h3>Operating Systems (Linux, Windows)</h3>
             </div>
             <div class="skill-card">
                 <div class="icon"><i class="fas fa-code"></i></div>
                 <h3>Programming (Python, C, etc.)</h3>
-                <span class="level">Intermediate</span>
-                <div class="skill-bar"><div class="fill" style="width: 65%;"></div></div>
             </div>
             <div class="skill-card">
                 <div class="icon"><i class="fas fa-apple-alt"></i></div>
                 <h3>Apple Device Maintenance</h3>
-                <span class="level">Intermediate</span>
-                <div class="skill-bar"><div class="fill" style="width: 70%;"></div></div>
             </div>
             <div class="skill-card">
-                <div class="icon"><i class="fas fa-file-alt"></i></div>
-                <h3>Microsoft Office Suite</h3>
-                <span class="level">Intermediate</span>
-                <div class="skill-bar"><div class="fill" style="width: 75%;"></div></div>
+                <div class="icon"><i class="fas fa-network-wired"></i></div>
+                <h3>Networking &amp; Telecommunications</h3>
             </div>
         </div>
     </section>
@@ -796,8 +755,8 @@
             </div>
             <div class="service-item">
                 <i class="fas fa-robot"></i>
-                <h3>Robotics &amp; Programming</h3>
-                <p>Basic robotics projects, sensor integration, and embedded systems programming.</p>
+                <h3>Robotics &amp; Prototyping</h3>
+                <p>Custom robotics projects or Robotics prototypes.</p>
             </div>
         </div>
     </section>
@@ -805,7 +764,7 @@
     <!-- ==================== PROJECTS ==================== -->
     <section id="portfolio">
         <h2 class="section-title">Featured <span>Project</span></h2>
-        <div class="section-sub">— Localizadores para Colectivo —</div>
+        <div class="section-sub">— IoT System for Public Transport —</div>
 
         <div class="project-showcase">
             <div class="info">
@@ -813,28 +772,28 @@
                 <div class="tags">
                     <span>GPS</span>
                     <span>4G</span>
-                    <span>Sound Sensors</span>
-                    <span>Database</span>
+                    <span>IoT</span>
+                    <span>Passenger Counting</span>
                     <span>Web Dashboard</span>
                 </div>
                 <p>
-                    <strong>Localizadores para Colectivo</strong> is an IoT device designed for public buses. 
-                    It provides real-time GPS tracking to show where the bus is, and uses sound sensors to 
-                    count passenger boarding and alighting, calculating the exact number of people inside the vehicle.
+                    An IoT device designed for public buses. It provides real-time GPS tracking to display 
+                    the bus's real-time location and uses sensors to count passengers boarding and alighting, 
+                    calculating real-time occupancy.
                 </p>
                 <p>
-                    The system includes a 4G module for communication, a database to store all the data, 
-                    and a web dashboard where operators can monitor everything in real time.
+                    The system includes a 4G LTE module for communication, a cloud database for data storage, 
+                    and a web dashboard for live monitoring.
                 </p>
                 <div class="tech-detail">
                     <p>
-                        <strong>🛠️ Technologies:</strong> GPS Module · 4G Module · Sound Sensors · 
-                        Database (SQL/NoSQL) · Web Dashboard (HTML/CSS/JS) · Embedded C/Python
+                        <strong>🛠️ Technologies:</strong> GPS Module · 4G LTE Module · IoT Sensors · 
+                        Cloud Database · Web Dashboard (HTML/CSS/JS) · Embedded C/Python
                     </p>
                 </div>
             </div>
             <div class="project-image">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Colectivo_Linea_92_%28Argentina%29.jpg/800px-Colectivo_Linea_92_%28Argentina%29.jpg" alt="Colectivo Línea 92 - Argentina" />
+                <img src="https://placehold.co/800x600/0a0e1a/4a9eff?text=Bus+Tracking+System" alt="Public Bus Tracking System" />
             </div>
         </div>
     </section>
@@ -846,8 +805,7 @@
 
         <div class="contact-box">
             <p>
-                📩 Feel free to reach out for collaborations, repair requests, or just to 
-                talk about electronics and technology!
+                Available for collaborations, repair projects, and tech discussions.
             </p>
             <a href="mailto:alessandropucciariell143@gmail.com" class="email">
                 <i class="fas fa-envelope"></i> alessandropucciariell143@gmail.com
@@ -856,8 +814,6 @@
             <div class="social-links">
                 <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
                 <a href="#" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
-                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
-                <a href="#" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
             </div>
         </div>
     </section>
